@@ -1,7 +1,7 @@
 import React from "react";
 import Leaderboard from "./Components/Leaderboard";
 import { Button } from "@smooth-ui/core-sc";
-import Game from "./Components/Game/new";
+import Game from "./Components/Game/index";
 import "./App.css";
 
 class App extends React.Component {
