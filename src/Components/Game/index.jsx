@@ -88,7 +88,7 @@ class Game extends React.Component {
 			});
 		} else if (userInput > answer) {
 			this.setState({
-				resultMessage: "Too hight"
+				resultMessage: "Too high"
 			});
 		}
 		let newTotalGuessArray = [...this.state.guessCount];
@@ -115,7 +115,7 @@ class Game extends React.Component {
 						getFormValue={this.getFormValue}
 						onSubmitClick={this.onSubmitClick}
 					/>
-					<p> You've made this many guesses {this.state.guessCount.length}</p>
+					<p> You've made these many guesses {this.state.guessCount.length}</p>
 					<p>{this.state.resultMessage}</p>
 				</div>
 			);
